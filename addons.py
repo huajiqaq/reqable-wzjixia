@@ -31,6 +31,7 @@ def onRequest(context, request):
                 Bucket=BUCKET,
                 Key=key,
                 LocalFilePath=IMG_PATH,
+                PartSize=1024,        # 每块 1024MB 超过1024MB可能会403
                 EnableMD5=False
             )
             print(f'[+] Uploaded: {key}')
