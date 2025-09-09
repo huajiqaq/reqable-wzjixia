@@ -37,7 +37,11 @@ python --version
 ```
 
 ### 3. 安装腾讯云 COS Python SDK
-请根据官方文档完成 SDK 安装与配置： [https://cloud.tencent.com/document/product/436/12269](https://cloud.tencent.com/document/product/436/12269)
+请执行以下命令安装腾讯云 COS Python SDK：
+
+```bash
+pip install -U cos-python-sdk-v5
+```
 
 ## 第三步：导入脚本并配置规则
 
@@ -77,11 +81,10 @@ IMG_PATH = r"你的本地图片路径"  # 例如：C:/your_image.jpg 或 /Users/
 
 ## 官方文档索引（请自行查阅）
 
-| 内容                             | 链接                                                         |
-| -------------------------------- | ------------------------------------------------------------ |
-| Reqable 协同模式配置             | [https://reqable.com/zh-CN/docs/getting-started/collaboration/](https://reqable.com/zh-CN/docs/getting-started/collaboration/) |
-| 腾讯云 COS Python SDK 安装与使用 | [https://cloud.tencent.com/document/product/436/12269](https://cloud.tencent.com/document/product/436/12269) |
-| Reqable 下载地址                 | [https://reqable.com](https://reqable.com)                   |
+| 内容                 | 链接                                                         |
+| -------------------- | ------------------------------------------------------------ |
+| Reqable 协同模式配置 | [https://reqable.com/zh-CN/docs/getting-started/collaboration/](https://reqable.com/zh-CN/docs/getting-started/collaboration/) |
+| Reqable 下载地址     | [https://reqable.com](https://reqable.com)                   |
 
 ---
 
