@@ -1,5 +1,7 @@
 # **该方法已和谐 请参考**  **[huajiqaq/Xposed-SGameHook](https://github.com/huajiqaq/Xposed-SGameHook)**（真机xposed）或  **[huajiqaq/Zygisk-SGameHook](https://github.com/huajiqaq/Zygisk-SGameHook) （模拟器）**
 
+# 如果你想上传到download.nature.qq.com 请参考reqable-scripts.config中的secretkey 注意 因为本仓库建立目的并不是使用cos存储桶上传文件 所以在之后如游戏更新新的secretkey 本仓库不再更新相关secretkey 
+
 # ~~配置指南~~
 
 ~~**版本号**：v0.2~~
